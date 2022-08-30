@@ -37,11 +37,11 @@ function Card({ pokemon }) {
       <div className="Card__info">
         <div className="Card__data">
           <p className="title">Peso</p>
-          <p>{pokemon.weight}</p>
+          <p>{pokemon.weight} Kg</p>
         </div>
         <div className="Card__data">
           <p className="title">Tamanho</p>
-          <p>{pokemon.height} Kg</p>
+          <p>{pokemon.height}</p>
         </div>
         <div className="Card__data">
           <p className="title">Habilidade</p>
